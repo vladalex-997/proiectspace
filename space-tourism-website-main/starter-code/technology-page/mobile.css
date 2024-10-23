@@ -1,0 +1,28 @@
+@media only screen and (max-width: 375px) {
+  .body {
+    background-image: url("../assets/technology/background-technology-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .meet {
+    padding: 5vh 0 5vh 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .links {
+    margin: 1vh 0 3vh 0;
+  }
+
+  .links div {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .links a {
+    line-height: 10vw;
+    font-size: 5vw;
+  }
+}

@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../assets/technology/background-technology-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .meet {
+    padding: 3vh 5vw 5vh 5vw;
+  }
+
+  .container {
+    gap: 0;
+    height: 77vh;
+    flex-direction: column-reverse;
+  }
+
+  .image {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .image img {
+    height: 40vh;
+    width: 100%;
+    background-image: url("../assets/technology/image-launch-vehicle-landscape.jpg");
+  }
+
+  .description {
+    gap: 0;
+    height: 37vh;
+    width: 100%;
+    padding: 0 10vw 0 10vw;
+    flex-direction: column;
+  }
+
+  .links {
+    height: 10vh;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 2vh 0;
+  }
+
+  .links div {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .links a {
+    line-height: 8vw;
+    font-size: 4vw;
+  }
+
+  .text {
+    height: 20vh;
+    align-items: center;
+    gap: 3vh;
+    text-align: center;
+  }
+}

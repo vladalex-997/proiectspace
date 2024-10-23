@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    padding-top: 5vh;
+    height: 90vh;
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5vh;
+  }
+
+  .hero-text {
+    gap: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 20vw;
+  }
+
+  .explore-button {
+    font-size: 5vw;
+    font-weight: normal;
+    width: 42vw;
+    aspect-ratio: 1;
+    font-family: "Bellefair", sans-serif;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 375px) {
+  .body {
+    background-image: url("../assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-content {
+    gap: 10vh;
+  }
+
+  .hero-content h2 {
+    font-size: 4vw;
+    letter-spacing: 2px;
+  }
+
+  .hero-content p {
+    font-size: 4vw;
+  }
+}

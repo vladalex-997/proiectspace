@@ -1,0 +1,130 @@
+@import url("../common_css/navcss.css");
+@import url("../common_css/navtablet.css");
+@import url("../common_css/navphone.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Barlow", sans-serif;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  padding: 0 5vw 0 5vw;
+  height: 60vh;
+  display: flex;
+  gap: 10vw;
+}
+
+.description {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 3vw;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #444;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.dot.selected {
+  background-color: #fff;
+}
+
+.crew-image {
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.dot:hover {
+  background-color: white;
+  transition: 1s;
+}
+
+.crew-image img {
+  width: 25vw;
+  max-height: 50vh;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  mask-position: bottom;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+}
+
+.meet {
+  padding: 10vh 5vw 10vh 5vw;
+}
+
+.meet span {
+  display: inline-block;
+  color: grey;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-size: clamp(4px, 1.5vw + 1.5vh, 36px);
+  padding-right: 1vw;
+  letter-spacing: 4px;
+}
+
+.meet h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: clamp(4px, 1.5vw + 1.5vh, 36px);
+  letter-spacing: 4px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.text h2 {
+  font-family: "Bellefair", sans-serif;
+  font-weight: normal;
+  font-size: clamp(6px, 2vw + 2vh, 50px);
+  color: grey;
+  text-transform: uppercase;
+}
+
+.text h1 {
+  font-family: "Bellefair", sans-serif;
+  font-weight: normal;
+  font-size: clamp(8px, 2vw + 2vh, 80px);
+  text-transform: uppercase;
+}
+
+.text p {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-size: clamp(3px, 1vw + 1vh, 20px);
+  color: #d0d6f9;
+}

@@ -1,0 +1,90 @@
+@import url("../common_css/navcss.css");
+@import url("../common_css/navtablet.css");
+@import url("../common_css/navphone.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/home/background-home-desktop.jpg") no-repeat
+    center/cover;
+}
+
+.container {
+  padding-top: 20vh;
+  height: calc (95vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-content {
+  padding: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 20vw;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  width: 40vw;
+}
+
+.hero-text h1 {
+  font-size: clamp(20px, 6vw + 6vh, 400px);
+  letter-spacing: 10px;
+  font-weight: normal;
+  font-family: "Bellefair", serif;
+}
+
+.hero-text h2 {
+  font-size: clamp(5px, 2vw + 2vh, 30px);
+  letter-spacing: 10px;
+  font-weight: normal;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #d0d6f9;
+}
+
+.hero-text p {
+  font-size: clamp(4px, 1.5vw + 1.5vh, 20px);
+  max-width: 600px;
+  line-height: 1.6;
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+}
+
+.explore-button {
+  width: clamp(300px, 15vw + 15vh, 800px);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: black;
+  font-size: 2.5vw;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.8s;
+  font-family: "Bellefair", sans-serif;
+  text-transform: uppercase;
+}
+
+.explore-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px white, 0 0 60px white, 0 0 90px white;
+}

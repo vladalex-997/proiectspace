@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  .white-line {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: flex-start;
+    gap: 10vw;
+    padding-top: 0;
+  }
+
+  nav {
+    flex-grow: 1;
+  }
+
+  .nav-links {
+    gap: 5vw;
+  }
+
+  .nav-links a {
+    font-size: 2.5vw;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-links a::after {
+    bottom: -28px;
+  }
+}

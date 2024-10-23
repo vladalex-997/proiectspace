@@ -1,0 +1,35 @@
+@media only screen and (max-width: 375px) {
+  .body {
+    background-image: url("../assets/crew/background-crew-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .meet {
+    padding: 5vh 0 10vh 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .description p {
+    line-height: 3vh;
+  }
+
+  .links {
+    gap: 5vw;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  .description {
+    height: 40vh;
+  }
+
+  .crew-image {
+    height: 30vh;
+  }
+}

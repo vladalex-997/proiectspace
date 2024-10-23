@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .meet {
+    padding: 5vh 5vw 2vh 10vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75vh;
+  }
+
+  .destination-image {
+    width: 60vw;
+  }
+
+  .textsmall p {
+    text-align: center;
+    line-height: 3vh;
+  }
+
+  .description {
+    width: 70vw;
+    align-items: center;
+  }
+
+  .travelcontainer {
+    width: 70vw;
+    align-items: space-around;
+  }
+
+  .distance,
+  .time {
+    display: flex;
+    align-items: center;
+  }
+
+  .bodyline {
+    width: 70vw;
+  }
+}
